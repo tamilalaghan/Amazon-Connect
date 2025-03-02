@@ -1,3 +1,16 @@
+Execute S3 Bucket Creation
+```js
+provider "aws"{
+    profile = "terraform-user"
+}
+
+resource "aws_s3_bucket" "tf_aws_s3_bucket" {
+    bucket = "tamil-tamil-3435-random"
+  
+}
+```
+
+
 # Terraform Init
 
 ![alt text](image.png)
